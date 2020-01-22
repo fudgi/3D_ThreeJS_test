@@ -1,0 +1,23 @@
+.slide_three_test {
+  .container{
+    position: absolute;
+    top: 170px;
+    left: 530px;
+    width: 510px;
+    height: 400px;
+  }
+  .canvas {
+    display: block;
+  }
+  .text{
+    position: absolute;
+    left: 200px;
+    top: 250px;
+    width: width('text.png', 2);
+    height: height('text.png', 2);
+    background: resolve('text.png') 0 0 no-repeat;
+    background-size: size('text.png', 2);
+  }
+  
+}
+
